@@ -1,5 +1,5 @@
 """
-WSGI config for hello_world project.
+WSGI config for api_build project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hello_world.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "api_build.settings")
 
 application = get_wsgi_application()
